@@ -1,0 +1,65 @@
+section { }
+section header{
+    
+    line-height: .5em;
+    background-color: aliceblue;
+    padding: .5em 1.5em;   
+    
+}
+
+
+.simonSays {
+    
+    
+    border: solid thin gray;
+    background-color: beige;
+    padding: 2em;
+    font-size: 1.5em;
+    
+    
+}
+
+body { padding: 2em;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.article { border: thin gray solid; margin-bottom: 1em;
+
+    font-size: 1.5em;
+    padding: .5em 1em;
+
+}
+
+.article h2 { margin-top: .5em;}
+.article p { max-width: 60em;}
+
+.twoColumns { width: 50%; float:left; padding: }
+.twoColumns p { padding: 0 1em;}
+.twoColumns h2 { display: block; text-align: center;}
+.twoColumns h2#Platinum { background-color: azure; }
+.twoColumns h2#Gold { background-color: gold; }
+
+.article img { display: block; width: 100%; max-height: 100px;}
+
+.clear {
+  clear: both;
+}
+
+.article .articleImage { display: block; width: 100%; height: 100px; background-position: center; background-size: cover; background-color: lightgrey; }
+
+#The-Simon-G-Family .articleImage { background-image: url(images/the-Simon-G-family.jpg); }
+#Brand-Promise .articleImage { background-image: url(images/brand-promise_01.png)}
+#Giving-Back .articleImage { background-image: url(images/giving-back.jpeg)}
+#Complimentary .articleImage { background-image: url(images/complimentary_01.png)}
+#Craftsmanship .articleImage { background-image: url(images/craftsmanship_01.png)}
+#Quality .articleImage { background-image: url(images/quality_01.png)}
+#Technique .articleImage { background-image: url(images/technique_01.png);}
+#Customization .articleImage { background-image: url(images/customization_01.png);}
+#Bridal-Ring-Size-Pricing-Policy .articleImage { background-image: url(images/pricing-policy_head-siz_01.png);}
+
+
+#contentIndex.article  { font-size: 0.8em;}
+
+.back-to-top-link { display: block; text-align: right; padding: .5em 0; font-size: .8em;}
